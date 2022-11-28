@@ -67,15 +67,15 @@ After running a built in timer in our refactored Excel VBA script, we found the 
 
 
 First, here's a comparison of the script run time for the original version and the refactored script analysis of 2017 stocks.
-
+### Before
 ![2017_not_refactored.png](https://github.com/willmino/stock-analysis/blob/main/2017_not_refactored.png)
-
+### After
 ![VBA_Challenge_2017.png](https://github.com/willmino/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
-Now, here's a comparison of the script run time for the script run times of the 2018 stocks.
-
+Now, here's a comparison of the script run times of the 2018 stocks.
+### Before
 ![2018_not_refactored.png](https://github.com/willmino/stock-analysis/blob/main/2018_not_refactored.png)
-
+### After
 ![VBA_Challenge_2018.png](https://github.com/willmino/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 
