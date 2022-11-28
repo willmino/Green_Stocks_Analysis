@@ -49,11 +49,17 @@ This process was repeated for all of the tickers. We were able to add individual
   
 We could update each ticker’s starting prices and end prices as well with our tickerStartingPrices(j) and tickerEndingPrices(j) arrays. Each array had twelve different index positions, one corresponding to each index position of the tickers array (0 to 11). We could access each value in the array using the tickerIndex variable. In the non refactored version of the code, we looked through every row of the spreadsheet and added trading volume values to the ‘totalVolume’ value for each ticker. This totalVolume value was transient because it was exported to its destination sheet during every iteration for each ticker and then the same variable (totalVolume) was set to zero for the next ticker iteration. In the refactored version of our code, we created an array which stored all twelve of the tickerVolumes values. We could then access and export each tickerVolumes value by performing an independent for loop. This would iterate through the arrays we created to set the destination cells values to the values stored in each array’s corresponding index position. 
 
+### Stock Performance Between 2017 and 2018
+
+'Green Stocks' performed a lot better in 2017 compared to 2018. Among these stocks, 2017 saw an everage annual return of 67%. Only the stock with ticker "TERP" exhibited a negative rate of return at -7.4%. In 2018, almost all stocks had negative yields at an average annual rate of return of -8.5%. This time only "ENPH" and "RUN" exhibited the only positive annual rate of return at     81.9% and 84.0% or higher.
+
+
+
 
 
 ### A More Efficient VBA Script
 
-After running a built in timer in our refactored Excel VBA script, we found the initial script run time dropped from 0.305 seconds to 0.0625 seconds.
+After running a built in timer in our refactored Excel VBA script, we found the initial script run time dropped from 0.305 seconds to 0.0625 seconds. Below are two pictures for the refactored script running analysis on stocks from the years 2017 and 2018.
 
 ![VBA_Challenge_2017.png](https://github.com/willmino/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
