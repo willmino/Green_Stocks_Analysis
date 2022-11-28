@@ -51,7 +51,7 @@ We could update each ticker’s starting prices and end prices as well with our 
 
 ### Stock Performance Between 2017 and 2018
 
-'Green Stocks' performed a lot better in 2017 compared to 2018. Among these stocks, 2017 saw an everage annual return of 67%. Only the stock with ticker "TERP" exhibited a negative rate of return at -7.4%.
+'Green Stocks' performed a lot better in 2017 compared to 2018. Among these stocks, 2017 saw an everage annual return of 67%. Only the stock with ticker "TERP" exhibited a negative rate of return at -7.2%.
 
 ![2017_Green_Stocks.png](https://github.com/willmino/stock-analysis/blob/main/2017_Green_Stocks.png)
 
@@ -68,7 +68,7 @@ After running a built in timer in our refactored Excel VBA script, we found the 
 
 First, here's a comparison of the script run time for the original version and the refactored script analysis of 2017 stocks.
 
-![2017_not_refactored.png]](https://github.com/willmino/stock-analysis/blob/main/2017_not_refactored.png)
+![2017_not_refactored.png](https://github.com/willmino/stock-analysis/blob/main/2017_not_refactored.png)
 
 ![VBA_Challenge_2017.png](https://github.com/willmino/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
