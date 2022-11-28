@@ -51,9 +51,13 @@ We could update each ticker’s starting prices and end prices as well with our 
 
 ### Stock Performance Between 2017 and 2018
 
-'Green Stocks' performed a lot better in 2017 compared to 2018. Among these stocks, 2017 saw an everage annual return of 67%. Only the stock with ticker "TERP" exhibited a negative rate of return at -7.4%. In 2018, almost all stocks had negative yields at an average annual rate of return of -8.5%. This time only "ENPH" and "RUN" exhibited the only positive annual rate of return at     81.9% and 84.0% or higher.
+'Green Stocks' performed a lot better in 2017 compared to 2018. Among these stocks, 2017 saw an everage annual return of 67%. Only the stock with ticker "TERP" exhibited a negative rate of return at -7.4%.
 
+![2017_Green_Stocks.png](https://github.com/willmino/stock-analysis/blob/main/2017_Green_Stocks.png)
 
+ In 2018, almost all stocks had negative yields at an average annual rate of return of -8.5%. This time only "ENPH" and "RUN" exhibited the only positive annual rate of return at     81.9% and 84.0% or higher.
+
+![2018_Green_Stocks.png](https://github.com/willmino/stock-analysis/blob/main/2018_Green_Stocks.png)
 
 
 
