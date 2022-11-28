@@ -63,9 +63,18 @@ We could update each ticker’s starting prices and end prices as well with our 
 
 ### A More Efficient VBA Script
 
-After running a built in timer in our refactored Excel VBA script, we found the initial script run time dropped from 0.305 seconds to 0.0625 seconds. Below are two pictures for the refactored script running analysis on stocks from the years 2017 and 2018.
+After running a built in timer in our refactored Excel VBA script, we found the initial script run time dropped from 0.278 seconds to 0.0625 seconds. 
+
+
+First, here's a comparison of the script run time for the original version and the refactored script analysis of 2017 stocks.
+
+![2017_not_refactored.png]](https://github.com/willmino/stock-analysis/blob/main/2017_not_refactored.png)
 
 ![VBA_Challenge_2017.png](https://github.com/willmino/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+Now, here's a comparison of the script run time for the script run times of the 2018 stocks.
+
+![2018_not_refactored.png](https://github.com/willmino/stock-analysis/blob/main/2018_not_refactored.png)
 
 ![VBA_Challenge_2018.png](https://github.com/willmino/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
